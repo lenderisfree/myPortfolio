@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+img.alexPicture{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+
+

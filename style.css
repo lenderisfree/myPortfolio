@@ -1,8 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dosis:wght@300;600&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
     list-style: none;
+}
+
+/*----------HEADER--------------*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    background-color: #04293A ;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.header .firstName, .lastName{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.firstName{
+    color: #eea239 ;
+}
+
+.avatar_information{
+    display: flex;
+    align-items: center;    
+    gap: 8px;
+}
+
+.checked{
+    width: 30px;
+    height: 30px;
+}
+
+.nav_information{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav_information a{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+.nav_information a:hover{
+    color: #eea239 ;
+    transition: 1s;
+    font-size: 25px;
+    
 }
 
 img{

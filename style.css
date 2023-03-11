@@ -5,10 +5,11 @@
   padding: 0px;
   text-decoration: none;
   list-style: none;
+  color: #04293a;
 }
 
 /*----------HEADER--------------*/
-header{
+header {
   width: 100%;
   background-color: #04293a;
 }
@@ -16,7 +17,7 @@ header{
 .nav_Header {
   display: flex;
   justify-content: space-between;
-  padding: 30px 0px;
+  padding: 80px 0px;
   color: white;
   max-width: 1200px;
   margin: auto;
@@ -27,13 +28,14 @@ header{
   font-family: "Dosis", sans-serif;
   font-weight: 600;
   font-size: 2rem;
+  color: white;
 }
 
 .firstName {
   font-family: "Dosis", sans-serif;
   font-weight: 600;
   font-size: 2rem;
-  color: #eea239;
+  color: #f4be00;
 }
 
 .avatar_information {
@@ -61,9 +63,9 @@ header{
 }
 
 .nav_information a:hover {
-  color: #eea239;
-  transition: 1s;
-  font-size: 25px;
+  color: #f4be00;
+  transition: 0.5s;
+ 
 }
 
 img {
@@ -77,16 +79,15 @@ img.alexPicture {
   border-radius: 50%;
 }
 
-
-
 /*------------MAIN CONTENT------------------*/
 
-.containerOne{
+.containerOne {
   max-width: 1200px;
   margin: auto;
 }
 
-.about_presentation{
+.about_presentation {
+  padding-top: 80px ;
   min-height: 400px;
   display: flex;
   flex-direction: column;
@@ -97,7 +98,7 @@ img.alexPicture {
   font-size: 28px;
   font-weight: bold;
   font-family: "Dosis", sans-serif;
-  color: #eea239;
+  color: #f4be00;
 }
 
 .about_career {
@@ -105,38 +106,117 @@ img.alexPicture {
   font-family: "Acme", sans-serif;
 }
 
-.about_description{
-    font-family: "Dosis", sans-serif;
-    font-size: 3rem ;
-    font-weight: 300;
+.about_description {
+  font-family: "Dosis", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
-.main_aboutMe{
-    font-size: 42px;
-    font-weight: bold;
-    font-family: "Dosis", sans-serif;
-    color: #eea239;
+.main_aboutMe {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+  color: #f4be00;
+  margin-top: 80px;
+  border-bottom: 10px solid #04293a;
+  max-width: 140px;
 }
 
-.main_aboutMeDesciption{
-    font-family: "Dosis", sans-serif;
-    font-size: 28px ;
+.main_aboutMeDesciption {
+  font-family: "Dosis", sans-serif;
+  font-size: 28px;
+  line-height: 1.5;
 }
 
-.main_alexPic{
-    width: 450px;
-    height: 520px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 4px #04293a;
+.img_arrow {
+  width: 100%;
 }
 
-.about_information{
+.main_alexPic {
+  width: 450px;
+  height: 520px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px #04293a;
+}
+
+.about_information {
   display: flex;
   align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.main_aboutMeDesciption {
+  text-align: center;
+}
+
+.iconHtml {
+  size: 40px;
+}
+
+/*------------SECTION------------------*/
+section{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 80px;
+}
+.section_cardPortfolio{
+  width: 250px;
+  height: 350px;
+  background-color: red;
+  border-radius: 15px;
+}
+
+
+/*------------FOOTER------------------*/
+
+footer {
+  width: 100%;
+  border-top: 0.3px solid #04293a24;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+}
+
+.footer_social img {
+  width: 50px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.footer_contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   
 }
 
-.main_aboutMeDesciption{
-  max-width: 500px;
+.footer_information {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  align-items: center;
+  padding: 30px 0px;
+  margin: auto;
+}
+
+.footer_creator {
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-bottom: 10px;
   text-align: center;
+  background-color: #04293a;
+  color: #f4be00;
+}
+
+.footer_navInformation a {
+  color: #04293a;
+  font-size: 1.3rem;
+  
+
 }
